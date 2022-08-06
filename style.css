@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.hero{
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 20px 40px 50px 20px;
+}
+
+nav{
+    padding: 10px 5 px;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+}
+
+.hero-body{
+    padding-top: 30px;
+}
+.hero-details{
+    width: 50%;
+    padding-top: 12%;
+}
+
+.hero-details>h1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.hero-details>p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+    
+}
+
+.CTA-button{
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color:hsl(322, 100%, 66%);
+    width: 45%;
+    height: 30%;
+    border-radius: 25px;
+    border-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 5px 10px;
+    
+    
+}
+.CTA-button-white{
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    background-color:white;
+    width: 25%;
+    border-radius: 15px;
+    border-color: white;
+    color: black;
+    padding: 5px 10px;
+     
+}
+
+
+.hero-img{
+    width: 50%;
+}
+
+main{
+    justify-items: space-between;
+    position: relative;
+    align-items: center;
+    padding: 80px 40px 140px;
+}
+
+.card{
+    width: 90%;
+    box-shadow: 2px 2px 2px 2px hsl(0, 0%, 89%), 4px 4px 4px 4px hsla(0, 0%, 100%, 0.396);
+    margin-bottom: 3%;
+    padding-left: 7%;
+    height: 70vh;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+.card >article{
+    width: 70%;
+}
+.card >figure{
+    width: 50%;
+}
+.card >article>h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 38px;
+    color: hsl(192, 100%, 9%);
+}
+
+.card >article>p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color:hsl(208, 11%, 55%);
+    
+    
+}
+
+aside{
+    width: 45%;
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 47%, 0.392), 4px 4px 4px 4px hsla(0, 0%, 56%, 0.396);
+    position: absolute;
+    z-index: 2;
+    top: 95%;
+    background-color: white;
+    height: 10%;
+    align-items:center;
+    border-radius: 10px;
+    padding-top: 2%;
+    
+}
+
+aside>h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: hsl(192, 100%, 9%);
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 10% 3% 3%;
+}
